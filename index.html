@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="الأفق الأزرق للخدمات النفطية - خدمات متكاملة في قطاع النفط والغاز، تركيب وصيانة المضخات، إنشاء الخزانات، والدعم اللوجستي في ليبيا.">
+    <meta name="keywords"
+        content="خدمات نفطية, صيانة حقول النفط, ليبيا, الأفق الأزرق, نقل حفارات, طلاء صناعي, Blue Horizon Oil Services">
+    <title>الأفق الأزرق للخدمات النفطية | Blue Horizon</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Favicon (using logo) -->
+    <link rel="icon" href="blue_horizon.png" type="image/png">
+</head>
+
+<body>
+    <!-- Background Effects -->
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar glass-effect">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <img src="blue_horizon.png" alt="Blue Horizon Logo">
+                <span data-i18n="about_lead">الأفق الأزرق</span>
+            </a>
+            <div class="nav-links">
+                <a href="#home" data-i18n="nav_home">الرئيسية</a>
+                <a href="#about" data-i18n="nav_about">من نحن</a>
+                <a href="#services" data-i18n="nav_services">خدماتنا</a>
+                <a href="#gallery" data-i18n="nav_gallery">أعمالنا</a>
+                <a href="#contact" class="btn-primary" data-i18n="nav_contact">اتصل بنا</a>
+                <button id="lang-toggle" class="lang-btn">English</button>
+            </div>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero-section">
+        <div class="container hero-content">
+            <div class="hero-text fade-up">
+                <h1>
+                    <span data-i18n="hero_title_pre">رؤية جديدة وحلول متكاملة في</span>
+                    <span class="highlight" data-i18n="hero_title_highlight">قطاع النفط والغاز</span>
+                </h1>
+                <p data-i18n="hero_desc">نقدم أعلى المعايير الفنية والتقنية في الصيانة، الإنشاءات، والدعم اللوجستي
+                    للحقول والمنشآت النفطية في ليبيا.</p>
+                <div class="hero-btns">
+                    <a href="#services" class="btn-primary" data-i18n="hero_btn_explore">استكشف خدماتنا</a>
+                    <a href="#contact" class="btn-secondary" data-i18n="hero_btn_contact">تواصل معنا</a>
+                </div>
+            </div>
+            <!-- Decorative Abstract Elements instead of stock photos -->
+            <div class="hero-visual fade-up delay-100">
+                <div class="abstract-shape shape-1"></div>
+                <div class="abstract-shape shape-2"></div>
+                <div class="abstract-grid">
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header fade-up">
+                <h2 data-i18n="about_title">من نحن</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content glass-card fade-up">
+                <p class="lead" data-i18n="about_lead">شركة الأفق الأزرق للخدمات النفطية (Blue Horizon Oil Services)</p>
+                <p data-i18n="about_desc">نحن شركة رائدة مقرها الرئيسي في طرابلس، ليبيا، متخصصة في تقديم خدمات متكاملة
+                    في قطاع النفط والغاز.
+                    نلتزم بأعلى معايير الجودة والسلامة لتلبية احتياجات عملائنا، بدءاً من التركيب والصيانة وحتى الدعم
+                    اللوجستي وتوفير العمالة المؤهلة.</p>
+
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-number">+10</span>
+                        <span class="stat-label" data-i18n="stat_exp">سنوات خبرة</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label" data-i18n="stat_quality">التزام بالجودة</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">24/7</span>
+                        <span class="stat-label" data-i18n="stat_support">دعم فني</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section dark-bg">
+        <div class="container">
+            <div class="section-header fade-up">
+                <h2 data-i18n="services_title">خدماتنا الرئيسية</h2>
+                <div class="underline"></div>
+                <p class="section-desc" data-i18n="services_subtitle">حلول شاملة تغطي كافة احتياجات قطاع الطاقة</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card glass-card fade-up">
+                    <div class="icon-box">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+                        </svg>
+                    </div>
+                    <h3 data-i18n="serv_pumps_title">المضخات والمضاغط</h3>
+                    <p data-i18n="serv_pumps_desc">تركيب وصيانة المضخات والمضاغط الخاصة بالمياه والنفط والغاز بأحدث
+                        التقنيات.</p>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card glass-card fade-up delay-100">
+                    <div class="icon-box">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                            <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                            <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                            <line x1="6" y1="18" x2="6.01" y2="18"></line>
+                        </svg>
+                    </div>
+                    <h3 data-i18n="serv_tanks_title">الخزانات والأنابيب</h3>
+                    <p data-i18n="serv_tanks_desc">إنشاء وصيانة الخزانات وخطوط الأنابيب ومحطات نقل النفط ومشتقاته.</p>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card glass-card fade-up delay-200">
+                    <div class="icon-box">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="3"></circle>
+                            <path
+                                d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3 data-i18n="serv_maint_title">صيانة المعدات</h3>
+                    <p data-i18n="serv_maint_desc">تركيب وصيانة الأجهزة والمعدات والأنظمة الدقيقة في الحقول والمنشآت.
+                    </p>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="service-card glass-card fade-up delay-300">
+                    <div class="icon-box">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="1" y="3" width="15" height="13"></rect>
+                            <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon>
+                            <circle cx="5.5" cy="18.5" r="2.5"></circle>
+                            <circle cx="18.5" cy="18.5" r="2.5"></circle>
+                        </svg>
+                    </div>
+                    <h3 data-i18n="serv_transport_title">النقل الثقيل</h3>
+                    <p data-i18n="serv_transport_desc">نقل الحفارات والمعدات الثقيلة بأمان وكفاءة داخل مختلف المناطق
+                        الليبية.</p>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="service-card glass-card fade-up">
+                    <div class="icon-box">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 data-i18n="serv_insulation_title">العزل والطلاء</h3>
+                    <p data-i18n="serv_insulation_desc">تنفيذ أعمال العزل الحراري والطلاء الصناعي لحماية المنشآت وإطالة
+                        عمرها الافتراضي.</p>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="service-card glass-card fade-up delay-100">
+                    <div class="icon-box">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                    </div>
+                    <h3 data-i18n="serv_manpower_title">العمالة الفنية</h3>
+                    <p data-i18n="serv_manpower_desc">توفير كوادر بشرية وعمالة فنية مؤهلة ومدربة لتلبية احتياجات
+                        المشاريع النفطية.</p>
+                </div>
+
+                <!-- Service 7 -->
+                <div class="service-card glass-card fade-up delay-200">
+                    <div class="icon-box">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3 data-i18n="serv_equipment_title">توفير الآليات</h3>
+                    <p data-i18n="serv_equipment_desc">توفير جميع أنواع الآليات وقطع الغيار (تويوتا دفع رباعي، آليات
+                        ثقيلة) للمواقع الصعبة.</p>
+                </div>
+
+                <!-- Service 8 -->
+                <div class="service-card glass-card fade-up delay-300">
+                    <div class="icon-box">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                            <polyline points="2 17 12 22 22 17"></polyline>
+                            <polyline points="2 12 12 17 22 12"></polyline>
+                        </svg>
+                    </div>
+                    <h3 data-i18n="serv_logistics_title">الدعم اللوجستي</h3>
+                    <p data-i18n="serv_logistics_desc">خدمات دعم لوجستي متكاملة للشركات الأجنبية العاملة في قطاع الطاقة
+                        في ليبيا.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section">
+        <div class="container">
+            <div class="section-header fade-up">
+                <h2 data-i18n="gallery_title">معرض الأعمال</h2>
+                <div class="underline"></div>
+                <p class="section-desc" data-i18n="gallery_desc">لقطات حية من مواقع العمل والعمليات الميدانية</p>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item fade-up">
+                    <img src="eng.jpg" alt="Gallery Image 1">
+                    <div class="gallery-overlay">
+                        <h3 data-i18n="gal_1_title">أحدث التقنيات الهندسية</h3>
+                        <p data-i18n="gal_1_desc">تطبيق معايير هندسية عالمية في كافة مراحل المشروع</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item fade-up delay-100">
+                    <img src="File.jpg" alt="Gallery Image 2">
+                    <div class="gallery-overlay">
+                        <h3 data-i18n="gal_2_title">دقة في التنفيذ</h3>
+                        <p data-i18n="gal_2_desc">التزام تام بالمواصفات والجداول الزمنية</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Us / Feature Strip -->
+    <section class="feature-strip">
+        <div class="container">
+            <div class="feature-content fade-up">
+                <h2 data-i18n="why_title">لماذا تختار الأفق الأزرق؟</h2>
+                <div class="features-list">
+                    <div class="feature" data-i18n="feat_punctuality">
+                        ✓ دقة في المواعيد
+                    </div>
+                    <div class="feature" data-i18n="feat_efficiency">
+                        ✓ كفاءة تشغيلية عالية
+                    </div>
+                    <div class="feature" data-i18n="feat_safety">
+                        ✓ معايير سلامة عالمية
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="contact-wrapper glass-card fade-up">
+                <div class="contact-info">
+                    <h2 data-i18n="contact_title">تواصل معنا</h2>
+                    <p data-i18n="contact_desc">نحن هنا للإجابة على استفساراتكم ومناقشة احتياجات مشاريعكم.</p>
+
+                    <div class="info-item">
+                        <div class="icon">📍</div>
+                        <div>
+                            <h4 data-i18n="contact_hq">المقر الرئيسي</h4>
+                            <p data-i18n="contact_hq_val">طرابلس، ليبيا</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="icon">📧</div>
+                        <div>
+                            <h4 data-i18n="contact_email">البريد الإلكتروني</h4>
+                            <p><a href="mailto:info@bhco.ly">info@bhco.ly</a></p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="icon">📞</div>
+                        <div>
+                            <h4 data-i18n="contact_phone">أرقام الهاتف</h4>
+                            <p><a href="tel:0912144779">0912144779 218+</a></p>
+                            <p><a href="tel:0918151154">0918151154 218+</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact form removed as per request -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="blue_horizon.png" alt="Blue Horizon Logo">
+                    <h3 data-i18n="about_lead">الأفق الأزرق</h3>
+                    <p class="slogan" data-i18n="footer_slogan">للخدمات النفطية</p>
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="#home" data-i18n="nav_home">الرئيسية</a></li>
+                        <li><a href="#services" data-i18n="nav_services">خدماتنا</a></li>
+                        <li><a href="#contact" data-i18n="nav_contact">اتصل بنا</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <p data-i18n="contact_hq_val">طرابلس، ليبيا</p>
+                    <p>info@bhco.ly</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-i18n="footer_rights">&copy; 2026 شركة الأفق الأزرق للخدمات النفطية. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
